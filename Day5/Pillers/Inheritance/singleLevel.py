@@ -21,5 +21,5 @@ class Dog(Animal):      #child / subclass / derived class
         print(f"{self.name} Dog barks.... ")
         
 d1 = Dog("Buddy")
-d1.sound()
 d1.eat()
+d1.sound()
