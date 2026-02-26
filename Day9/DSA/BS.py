@@ -5,10 +5,10 @@ n = int(input("Enter the number of elements to  be inserted : "))
 for i in range(n):
     item  = int(input("Enter an element : "))
     l.append(item)
+l = sorted(l)
 key = int(input("Enter an element to search: "))
 flag = 0
 left = 0
-l = sorted(l)
 right = len(l) - 1
 
 while left <= right:
