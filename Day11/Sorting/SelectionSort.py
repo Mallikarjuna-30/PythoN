@@ -19,36 +19,36 @@ print(Selectionsort([1,3,2,8,4,5]))
 # 3. Swap it with the first element.
 # 4. Move to the next element and repeat until the array is sorted.
 
-# Example: [8,3,5,2,9,1]
+# Example: [29,10,14,37,13]
 
 # i = 0 (min = 0)
-# Find smallest in [8,3,5,2,9,1]. It's 1 at index 5.
-# Swap 8 and 1.
-# Array: [1, 3, 5, 2, 9, 8]
+# Find smallest in [29,10,14,37,13]. It's 10 at index 1.
+# Swap 29 and 10.
+# Array: [10, 29, 14, 37, 13]
 
 # i = 1 (min = 1)
-# Find smallest in [3,5,2,9,8]. It's 2 at index 3.
-# Swap 3 and 2.
-# Array: [1, 2, 5, 3, 9, 8]
+# Find smallest in [29,14,37,13]. It's 13 at index 4.
+# Swap 29 and 13.
+# Array: [10, 13, 14, 37, 29]
 
 # i = 2 (min = 2)
-# Find smallest in [5,3,9,8]. It's 3 at index 3.
-# Swap 5 and 3.
-# Array: [1, 2, 3, 5, 9, 8]
+# Find smallest in [14,37,29]. It's 14 at index 2.
+# Swap 14 and 14 (no change).
+# Array: [10, 13, 14, 37, 29]
 
 # i = 3 (min = 3)
-# Find smallest in [5,9,8]. It's 5 at index 3.
-# Swap 5 and 5 (no change).
-# Array: [1, 2, 3, 5, 9, 8]
+# Find smallest in [37,29]. It's 29 at index 4.
+# Swap 37 and 29.
+# Array: [10, 13, 14, 29, 37]
 
 # i = 4 (min = 4)
-# Find smallest in [9,8]. It's 8 at index 5.
-# Swap 9 and 8.
-# Array: [1, 2, 3, 5, 8, 9]
+# Find smallest in [37]. It's 37 at index 4.
+# Swap 37 and 37 (no change).
+# Array: [10, 13, 14, 29, 37]
 
 # i = 5 (min = 5)
-# Find smallest in [9]. It's 9 at index 5.
-# Swap 9 and 9 (no change).
-# Array: [1, 2, 3, 5, 8, 9]
+# Find smallest in [37]. It's 37 at index 4.
+# Swap 37 and 37 (no change).
+# Array: [10, 13, 14, 29, 37]
 
 # Array is sorted.

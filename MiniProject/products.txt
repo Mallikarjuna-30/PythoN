@@ -1,0 +1,10 @@
+101 Mouse 320
+102 Keyboard 350
+103 Speaker 320
+104 GPU 22000
+105 Monitor 7500
+106 Headphones 1500
+107 Webcam 1200
+108 USB_Cable 150
+109 SSD 4500
+110 RAM 3000
